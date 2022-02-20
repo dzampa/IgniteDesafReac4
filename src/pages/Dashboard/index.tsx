@@ -14,14 +14,14 @@ interface IFood {
   price:string;
   available:boolean;
   image:string;
-}
+};
 
 interface AddFood {
   image:string;
   name:string;
   price:string;
   description:string;
-}
+};
 
 export default function Dashboard() {
   
